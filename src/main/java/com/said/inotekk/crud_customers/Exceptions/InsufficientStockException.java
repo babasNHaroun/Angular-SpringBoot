@@ -1,3 +1,4 @@
+package com.said.inotekk.crud_customers.Exceptions;
 
 public class InsufficientStockException extends RuntimeException {
     public InsufficientStockException(Long productId) {
